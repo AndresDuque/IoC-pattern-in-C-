@@ -1,0 +1,5 @@
+/snap/clion/12/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/andres/workspace/ioc-container
+-- Configuring module ithData
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/andres/workspace/ioc-container/cmake-build-debug

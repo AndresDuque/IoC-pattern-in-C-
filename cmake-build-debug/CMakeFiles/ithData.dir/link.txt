@@ -1,0 +1,2 @@
+/usr/bin/ar qc libithData.a  CMakeFiles/ithData.dir/src/examination.cpp.o CMakeFiles/ithData.dir/src/patient.cpp.o CMakeFiles/ithData.dir/src/treatment.cpp.o
+/usr/bin/ranlib libithData.a

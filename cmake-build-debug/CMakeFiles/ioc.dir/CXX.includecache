@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Examination.h
+memory
+-
+string
+-
+Treatment.h
+../include/Treatment.h
+
+../include/IDB.h
+memory
+-
+
+../include/Patient.h
+memory
+-
+string
+-
+Examination.h
+-
+
+../include/Treatment.h
+string
+-
+IDB.h
+../include/IDB.h
+
+/home/andres/workspace/ioc-container/src/main.cpp
+iostream
+-
+Patient.h
+-
+
